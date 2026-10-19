@@ -1,0 +1,16 @@
+Question title:API-Service Directory Workflow
+Question link:https://my.newtonschool.co/playground/code/5ypni48t3pzs
+
+cd api-service
+git init
+git add README.md
+git commit -m "Add documentation"
+git add server.js routes.js package.json
+git commit -m "Add server files"
+git status
+git log
+
+Approach:
+1.i have changes the directory to api-service
+2.initialised the git in init
+3.just write the commands as given in the questions
