@@ -1,0 +1,7 @@
+Question title:The Missing Project Credentials
+Question link:
+
+
+
+grep -r "DB_PASSWORD" 
+cat EventApp/config/.env > EventApp/db_password.txt

@@ -1,0 +1,15 @@
+Question title:Execute a Python Script Directly
+Question link:https://my.newtonschool.co/playground/code/mepmefz373b4?lecture_hash=t5qc0u6ap8tg
+solution:
+touch hello.py
+echo "#!/usr/bin/env python3" >hello.py
+echo 'print("Hello from Python")' >>hello.py
+chmod +x hello.py
+./hello.py
+
+Approach :
+1.first i have created the file hello.py 
+2.wrote shebang operator and initialized in the file using >
+3.appended text what to prinyt into hello.py using >>
+4.gave the excecuting acess using +x
+5.print using ./file name 

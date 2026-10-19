@@ -1,0 +1,30 @@
+Question title:Build Pipeline Directory Tree
+Question link:https://my.newtonschool.co/playground/code/jipp2htnvrww?lecture_hash=v210chxjexei
+Solution:
+
+mkdir -p pipeline/stages/build
+mkdir -p pipeline/stages/test/unit/integration
+mkdir -p pipeline/env/staging
+mkdir -p pipeline/env/prod
+mkdir -p pipeline/artifacts/old
+
+chmod 750 pipeline/stages
+chmod 770 pipeline/artifacts
+chmod 700 pipeline/env
+
+cd pipeline/stages/build/
+touch app.py config.json NOTES.md
+echo "Build stage initialized." > NOTES.md
+
+cd ../..
+cd artifacts/old/
+touch build.log test.log deploy.log
+chmod 640 build.log test.log deploy.log
+
+Approach:
+1.i have made the chain of the listed directories using mkdir -p it creates the nested chain of the directories
+2.i have given the required permission to that particular directories
+3.entered into the given directory and created the files
+4.added the text to the NOTES>md
+5.returned to the home directory and then entered into other and created *.log files 
+6.given permissions to the *.log files.

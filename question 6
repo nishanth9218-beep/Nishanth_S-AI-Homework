@@ -1,0 +1,14 @@
+Question title:Simplify the Compilation Process
+Question link:https://my.newtonschool.co/playground/code/9kh4giios2j4?lecture_hash=t5qc0u6ap8tg
+solution:
+touch build.sh
+echo "gcc hello.c -o hello" >build.sh
+chmod +x build.sh
+./build.sh
+./hello
+
+Approach:
+1.first created the empty file build.sh
+2.entered the shebang for the c that is gcc hello.c -o hello and initialised to the build.sh
+3.gave the permission to execute
+4.print commands ./build.sh and ./hello
