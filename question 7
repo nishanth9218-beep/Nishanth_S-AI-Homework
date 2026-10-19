@@ -1,7 +1,9 @@
 Question title:The Missing Project Credentials
-Question link:
-
-
-
+Question link:https://my.newtonschool.co/playground/code/9kh4giios2j4?lecture_hash=t5qc0u6ap8tg
+solution:
 grep -r "DB_PASSWORD" 
 cat EventApp/config/.env > EventApp/db_password.txt
+
+Approach:
+1.finding the password using the command it finds the password in the all nested files and folders
+2.copying the password and pasting it into the new file db_password.txt
