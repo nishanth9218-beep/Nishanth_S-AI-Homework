@@ -1,0 +1,26 @@
+Question title :Create a Project Folder Structure
+Question link:https://my.newtonschool.co/playground/code/jipp2htnvrww?lecture_hash=v210chxjexei
+
+cat > create-service << 'EOF'
+#!/bin/bash
+
+mkdir -p service/controllers
+mkdir -p service/models
+mkdir -p service/routes
+mkdir -p service/middleware
+
+echo "API Service" > service/README.md
+echo 'console.log("Server started");' > service/server.js
+EOF
+
+chmod +x create-service
+./create-service
+
+Approach:
+1.  I initialized the workspace by creating the main project folder along with its required subfolders.
+2.  I navigated directly inside the project directory and utilized the touch command to rapidly generate three new empty files.
+3.  I duplicated the primary file (report.docx) and successfully relocated and renamed the duplicate to report_backup.docx to preserve a historical copy.
+4.  I transferred the final_summary.docx document into the old/ directory to keep the main workspace clean and organized.
+5. Finally, I permanently deleted the report_backup.docx file to remove the redundant copy and finalize the workflow.
+
+
