@@ -6,4 +6,4 @@ cat EventApp/config/.env > EventApp/db_password.txt
 
 Approach:
 1.finding the password using the command it finds the password in the all nested files and folders
-2.copying the password and pasting it into the new file db_password.txt
+2.copying the password and pasting it into the new file db_password.txt.
