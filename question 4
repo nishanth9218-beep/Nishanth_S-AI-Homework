@@ -12,5 +12,5 @@ chmod 755 deployment/bin/*.sh
 approach:
 1.as per given question start giving permissions outside the deployment
 2.we have 4 read 2 write 1 excecute
-3.shortcut given instead of listing everyfile just listlast like python.py list like *.py
+3.shortcut given instead of listing everyfile just listlast like python.py list like *.py.
 
