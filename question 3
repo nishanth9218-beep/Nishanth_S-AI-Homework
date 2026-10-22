@@ -1,4 +1,4 @@
-Question title:Data Breach Response
+Question title: Data Breach Response
 Question link:https://my.newtonschool.co/playground/code/orlr84xpc3oo?lecture_hash=vifkrugjcwth
 solution:
 cp breach_response/evidence/log_dump.txt breach_response/log_dump.txt
