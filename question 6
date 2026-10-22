@@ -11,4 +11,4 @@ Approach:
 1.first created the empty file build.sh
 2.entered the shebang for the c that is gcc hello.c -o hello and initialised to the build.sh
 3.gave the permission to execute
-4.print commands ./build.sh and ./hello
+4.print commands ./build.sh and ./hello.
