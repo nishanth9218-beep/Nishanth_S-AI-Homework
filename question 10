@@ -19,4 +19,4 @@ Approach:
 5.add commit 
 6. will register the remote for the first time using remote add origin
 7.push that using git push origin main
-8.we will see what we have done using git log
+8.we will see what we have done using git log.
