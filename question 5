@@ -12,4 +12,4 @@ Approach :
 2.wrote shebang operator and initialized in the file using >
 3.appended text what to prinyt into hello.py using >>
 4.gave the excecuting acess using +x
-5.print using ./file name 
+5.print using ./file name.
